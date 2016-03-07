@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', './Page1/page1.component', './Page2/page2.component'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', './Page1/page1.component', './Page2/page2.component', './Page3/page3.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/router', './Page1/page1.component', 
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, page1_component_1, page2_component_1;
+    var core_1, router_1, page1_component_1, page2_component_1, page3_component_1;
     var AppComponent;
     return {
         setters:[
@@ -25,6 +25,9 @@ System.register(['angular2/core', 'angular2/router', './Page1/page1.component', 
             },
             function (page2_component_1_1) {
                 page2_component_1 = page2_component_1_1;
+            },
+            function (page3_component_1_1) {
+                page3_component_1 = page3_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -33,12 +36,13 @@ System.register(['angular2/core', 'angular2/router', './Page1/page1.component', 
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h1>Component Router</h1>\n    <nav>\n      <a [routerLink]=\"['Page1']\">Page 1</a>\n      <a [routerLink]=\"['Page2']\">Page 2</a>\n    </nav>\n    <router-outlet></router-outlet>\n  ",
+                        template: "\n    <h1>Component Router</h1>\n    <nav>\n      <a [routerLink]=\"['Page1']\">Page 1</a>\n      <a [routerLink]=\"['Page2']\">Page 2</a>\n      <a [routerLink]=\"['Page3']\">Page 3</a>\n    </nav>\n    <router-outlet></router-outlet>\n  ",
                         directives: [router_1.ROUTER_DIRECTIVES]
                     }),
                     router_1.RouteConfig([
                         { path: '/page1', name: 'Page1', component: page1_component_1.Page1Component },
-                        { path: '/page2', name: 'Page2', component: page2_component_1.Page2Component }
+                        { path: '/page2', name: 'Page2', component: page2_component_1.Page2Component },
+                        { path: '/page3', name: 'Page3', component: page3_component_1.Page3Component }
                     ]), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
