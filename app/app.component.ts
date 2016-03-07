@@ -1,7 +1,7 @@
 import {Component} from 'angular2/core';
 import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
-import {Page1Component}   from './page1.component';
-import {Page2Component}     from './page2.component';
+import {Page1Component}   from './Page1/page1.component';
+import {Page2Component}     from './Page2/page2.component';
 
 @Component({
     selector: 'my-app',
@@ -19,4 +19,4 @@ import {Page2Component}     from './page2.component';
     {path:'/page1',         name: 'Page1',       component: Page1Component},
     {path:'/page2',         name: 'Page2',       component: Page2Component}
 ])
-export class AppComponent { }
+export class AppComponent {}
