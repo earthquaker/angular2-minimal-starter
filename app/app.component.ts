@@ -1,8 +1,8 @@
 import {Component} from 'angular2/core';
 import {RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
-import {Page1Component}   from './Page1/page1.component';
-import {Page2Component}     from './Page2/page2.component';
-import {Page3Component}     from './Page3/page3.component';
+import {Page1Component} from './Page1/page1.component';
+import {Page2Component} from './Page2/page2.component';
+import {Page3Component} from './Page3/page3.component';
 
 @Component({
     selector: 'my-app',
