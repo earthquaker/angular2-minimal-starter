@@ -23,7 +23,7 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                 }
                 Page1Component = __decorate([
                     core_1.Component({
-                        template: "\n    <h2>Page 1</h2>\n    <p>Page 1</p>"
+                        template: "\n    <h2>Page 1</h2>\n    <p>Page 111111</p>\n    <button type=\"button\" pButton>Click</button>"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], Page1Component);
