@@ -1,5 +1,5 @@
 # angular2-minimal-starter
 
 ### Run
-npm install
-npm start
+#### npm install
+#### npm start
